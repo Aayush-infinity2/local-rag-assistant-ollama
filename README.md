@@ -59,7 +59,7 @@ Download the ZIP file, right-click it, select **Extract All**, and open the extr
 Or clone it from GitHub:
 
 ```powershell
-git clone https://github.com/YOUR-USERNAME/local-rag-assistant-ollama.git
+git clone https://github.com/Aayush-infinity2/local-rag-assistant-ollama.git
 cd local-rag-assistant-ollama
 ```
 
