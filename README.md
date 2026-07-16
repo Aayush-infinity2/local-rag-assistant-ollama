@@ -6,7 +6,6 @@
 
 Local RAG Assistant runs fully on your computer. It searches a local text knowledge base, finds information relevant to a question, and uses a local Ollama language model to generate a grounded answer. No cloud AI API key or paid account is required.
 
-**GitHub description:** A privacy-focused Retrieval-Augmented Generation (RAG) assistant built with Streamlit and Ollama. It performs local semantic search over a custom knowledge base and generates grounded AI responses using local language models.
 
 ## Features
 
@@ -29,7 +28,7 @@ Every non-empty line in `data/knowledge_base.txt` is a **context chunk**. The ap
 ## Project structure
 
 ```text
-ollama-rag-assistant/
+local-rag-assistant-ollama/
 ├── app.py                     # Main Streamlit application
 ├── README.md                  # Project documentation
 ├── pyproject.toml             # uv configuration
@@ -55,7 +54,7 @@ ollama-rag-assistant/
 
 ### 1. Get the project
 
-If you received a ZIP file, right-click it, select **Extract All**, and open the extracted `ollama-rag-assistant` folder.
+Download the ZIP file, right-click it, select **Extract All**, and open the extracted `local-rag-assistant-ollama` folder.
 
 Or clone it from GitHub:
 
@@ -148,32 +147,6 @@ The computer laboratory is located on the second floor.
 
 Save the file, stop the application, and run `uv run streamlit run app.py` again. The app will then create embeddings for and use the new information.
 
-## Uploading to GitHub
-
-Suggested repository name: `local-rag-assistant-ollama`
-
-Suggested topics: `rag`, `ollama`, `streamlit`, `local-llm`, `generative-ai`, `embeddings`, `semantic-search`, `python`, `machine-learning`.
-
-Include these files and folders in GitHub or a ZIP:
-
-```text
-app.py
-README.md
-pyproject.toml
-requirements.txt
-.gitignore
-data/
-src/
-uv.lock (if created after uv sync)
-```
-
-Do not include `.venv/`, `__pycache__/`, or `.git/`.
-
-## Live-link note
-
-This is a **local-first application**. It needs Ollama and the downloaded models to run on the same computer as the app. A regular public Streamlit deployment cannot run this exact setup unless its cloud server is also configured with Ollama and the models.
-
-For an academic submission, share the GitHub repository, this README, screenshots, and a short demo video. The local design demonstrates privacy-focused and offline-capable AI.
 
 ## Troubleshooting
 
