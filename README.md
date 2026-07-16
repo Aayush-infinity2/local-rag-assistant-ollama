@@ -106,7 +106,7 @@ Open the project folder in File Explorer. Click its address bar, type `powershel
 Or run a command like this:
 
 ```powershell
-cd "C:\Users\YourName\Documents\ollama-rag-assistant"
+cd "C:\Users\YourName\Documents\local-rag-assistant-ollama"
 ```
 
 ### 6. Install dependencies and start the app
