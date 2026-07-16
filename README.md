@@ -192,7 +192,3 @@ For an academic submission, share the GitHub repository, this README, screenshot
 - Persistent vector database for larger knowledge bases
 - Source citations with file names and line numbers
 - Retrieval-quality evaluation using test questions
-
-## Educational value
-
-This project demonstrates local large language models, embeddings, semantic search, cosine similarity, RAG, prompt grounding, and user-interface development. It is a strong project for a 3rd-year B.Tech AI/ML/CSE student.
