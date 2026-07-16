@@ -17,6 +17,9 @@ Local RAG Assistant runs fully on your computer. It searches a local text knowle
 - Easy-to-edit local text knowledge base
 - `uv` dependency management
 
+## Screenshot
+<img width="1901" height="776" alt="Screenshot 2026-07-16 153349" src="https://github.com/user-attachments/assets/7567b783-0a5f-4075-bff1-a64f7b045638" />
+
 ## How it works
 
 ```text
